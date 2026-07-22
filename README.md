@@ -87,42 +87,22 @@ Python 3.10+
 MongoDB Atlas Cluster
 AI API Key
 Git
+
+
 Backend
 cd backend
-
 python -m venv venv
-
 source venv/bin/activate
+
 # Windows
 venv\Scripts\activate
-
 pip install -r requirements.txt
-
 uvicorn main:app --reload
+
 Frontend
 cd frontend
-
 npm install
-
 npm run dev
 
 
-📂 Project Architecture
-Frontend (Next.js)
-        │
-        ▼
-FastAPI Backend
-        │
-        ▼
-LangGraph Multi-Agent System
-        │
- ┌──────┼────────┐
- │      │        │
-Tutor  Notes  Flashcards
- │      │        │
- └──────┼────────┘
-        ▼
-   ChromaDB (RAG)
-        │
-        ▼
-MongoDB Atlas
+
