@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment secrets — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Uploaded files (may contain user data)
+uploads/
+
+# ChromaDB local storage
+chroma_storage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store

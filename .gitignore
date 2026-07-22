@@ -1,0 +1,30 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python / Virtual Envs
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+*.py[cod]
+
+# App Storage & Data
+backend/uploads/
+backend/chroma_storage/
+
+# IDE
+.vscode/
+.idea/

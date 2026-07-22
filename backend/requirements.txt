@@ -1,0 +1,84 @@
+# ==========================
+# FastAPI Backend
+# ==========================
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+pydantic
+pydantic-settings
+
+# ==========================
+# AI & Agent Framework
+# ==========================
+langchain
+langgraph
+langsmith
+
+# ==========================
+# Mistral AI
+# ==========================
+mistralai
+
+# ==========================
+# Vector Database
+# ==========================
+chromadb
+
+# ==========================
+# Document Processing
+# ==========================
+unstructured
+pypdf
+pymupdf
+pdfplumber
+python-docx
+
+# ==========================
+# Text Splitting & Tokenization
+# ==========================
+tiktoken
+
+# ==========================
+# HTTP Client
+# ==========================
+httpx
+requests
+
+# ==========================
+# Async File Handling
+# ==========================
+aiofiles
+
+# ==========================
+# Database (Future Phases)
+# ==========================
+
+
+
+# ==========================
+# Authentication
+# ==========================
+python-jose[cryptography]
+passlib[bcrypt]
+
+# ==========================
+# Logging
+# ==========================
+loguru
+
+# ==========================
+# Data Processing
+# ==========================
+numpy
+pandas
+
+# ==========================
+# Knowledge Graph (Future)
+# ==========================
+networkx
+
+# ==========================
+# Testing
+# ==========================
+pytest
